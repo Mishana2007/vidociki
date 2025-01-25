@@ -16,9 +16,9 @@ const yooKassa = new YooKassa({
 });
 
 const PAYMENT_OPTIONS = {
-  small: { processes: 5, price: 299 },
-  medium: { processes: 15, price: 699 },
-  large: { processes: 30, price: 999 }
+  small: { processes: 5, price: 199 },
+  medium: { processes: 15, price: 745 },
+  large: { processes: 30, price: 970 }
 };
 
 // Add to MESSAGES object
@@ -26,9 +26,9 @@ const paymentMessages = {
   paymentMenu: `
 💰 *Выберите пакет анализов:*
 
-1️⃣ Базовый: 5 анализов - 299₽
-2️⃣ Стандарт: 15 анализов - 699₽
-3️⃣ Премиум: 30 анализов - 999₽`,
+1️⃣ Базовый: 5 анализов - 199₽
+2️⃣ Стандарт: 15 анализов - 745₽
+3️⃣ Премиум: 30 анализов - 970₽`,
 
   paymentSuccess: (package) => `
 ✅ *Оплата успешно завершена!*
